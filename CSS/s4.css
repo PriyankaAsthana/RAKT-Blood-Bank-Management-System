@@ -1,0 +1,204 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.d{
+    padding-right: 5%;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: url(../image/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 9%;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.textbox{
+    width: 90%;
+    color: black;
+    position: absolute;
+    padding-left: 7%;
+    padding-top: 55%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.textbox h1{
+    font-size: 62px;
+    color: white;
+}
+.textbox p{
+    font-size: 25px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: blue;
+}
+.footer p{
+    font-size: 25px;
+    color: #fff;
+}
+.footer h1{
+    color: bisque;
+    font-size: 50px;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons{
+    color: black; 
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    height: 100px;
+    width: 100px;
+    background: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 110px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.icons a i{
+    transition: all 0.6 linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color: #e84393;
+}
+.facebook-official{
+    color: navy;
+} 
+.fa-twitter{
+    color: #0097e6;
+}   
+.fa-linkedin{
+    color: #0097e6;
+}
+.fa-gratipay{
+    color: maroon;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+.f{
+    text-align: center;
+}
+.u{
+    color: black;
+}
+.location{
+    width: 100%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 80%;
+    padding-left: 10%;
+}
+.concol{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    background: url(../image/messa.jpg);
+    padding-left: 70%;
+    background-size: 650px 1250px;
+    background-repeat: no-repeat;
+}
+.concol div{
+    display: flex;
+    align-items: center;
+}
+.concol div .fa{
+    font-size: 28px;
+    color: blue;
+    padding-top: 3%;
+}
+.contus{
+    width: 80%;
+    margin: auto;
+}
+.concol span h5{
+    margin: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: black;
+}
+.we{
+    padding-bottom: 2%;
+}
+
+.concol span p{
+    padding-left: 4%;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 12px 14px;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    cursor: pointer;
+    backdrop-filter: blur(9px);
+}
+.btn:hover{
+    border:1px solid white;
+    background: goldenrod;
+    transition: 1s;
+}
+.concol input, .concol textarea{
+    width: 60%;
+    margin-bottom: 17px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid black;
+}
