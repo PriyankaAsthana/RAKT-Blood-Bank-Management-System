@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: url(../image/wor2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 9%;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 50%;
+    position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    padding-bottom: 3%;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    color: #fff;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 30px;
+}
+.content p a{
+    color: navy;
+}
+.content p a:hover{
+    width: 100%;
+    color: red;
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-size: 25px;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    backdrop-filter: blur(9px);
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    border: 1px solid white;
+    background: goldenrod;
+    transition: 0.5s;
+}
+.icons{
+    color: black; 
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+.icons a{
+    height: 100px;
+    width: 100px;
+    background: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 110px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.icons a i{
+    transition: all 0.6 linear;
+    padding-top: 35%;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color: #e84393;
+}
+.facebook-official{
+    color: navy;
+} 
+.fa-twitter{
+    color: #0097e6;
+}   
+.fa-linkedin{
+    color: #0097e6;
+}
+
+.fa-gratipay{
+    color: maroon;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+.f{
+    text-align: center;
+}
+.u{
+    color: black;
+}
