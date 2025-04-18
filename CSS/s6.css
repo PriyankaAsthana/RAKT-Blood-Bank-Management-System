@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+   font-family: 'poppins',sans-serif;
+}
+body{
+    background: url(../image/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.donor{
+    
+    width: 360px;
+    height: 680px;
+    margin: auto;
+    background: transparent;
+    border-radius: 3px;
+    border: 2px solid  rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    justify-content: center;
+    align-items: center;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    padding-top: 2%;
+    width: 30%;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 50%;
+}
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 50%;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form{
+    color: white;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgba(255, 3, 1, 0.5);
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color:rgba(255, 3, 1, 0.5) ;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+.bt{
+    background-color: white;
+
+}
