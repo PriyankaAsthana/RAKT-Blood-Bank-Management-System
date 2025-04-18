@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+ *{
+    font-family: 'poppins',sans-serif;
+ }
+body{
+    background: url(../image/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.signup{
+    width: 360px;
+    height: 1015px;
+    margin: auto;
+    background: transparent;
+    border-radius: 3px;
+    border: 2px solid  rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+   
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgba(255, 3, 1, 0.5);
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color:rgba(255, 3, 1, 0.5) ;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+ion-icon{
+    color: white;
+}
+form{
+    color: white;
+}
+
+
+
+
