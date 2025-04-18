@@ -1,1 +1,1 @@
-![Screenshot 2024-04-28 154812](https://github.com/PriyankaAsthana/ECOM-Website/assets/166942678/44015f82-da95-4998-bcfb-969fe5f52cab)
+![Image](https://github.com/user-attachments/assets/7fa7363d-1a29-45df-92cb-88bae370a196)
