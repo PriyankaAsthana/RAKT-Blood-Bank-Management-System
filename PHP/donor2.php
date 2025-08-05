@@ -14,7 +14,7 @@ if (isset($_POST['city_id'])) {
     $stmt->execute();
     $result = $stmt->get_result();
     
-    $venues = array();
+    $venues = array(); 
     while ($row = $result->fetch_assoc()) {
         $venues[] = $row;
     }
