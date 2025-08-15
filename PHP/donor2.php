@@ -6,7 +6,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-if (isset($_POST['city_id'])) {
+if (isset($_POST['city_id'])) { 
     $city_id = $_POST['city_id'];
     $sql = "SELECT vid, vname FROM venue WHERE idlo = ?";
     $stmt = $conn->prepare($sql);
